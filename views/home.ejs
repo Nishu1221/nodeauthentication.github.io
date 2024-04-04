@@ -1,0 +1,23 @@
+<!-- /views/home.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to the Home Page!</h2>
+    <p>You are now logged in.</p>
+
+    <form action="/logout" method="post">
+      <button type="submit">Logout</button>
+    </form>
+
+    <p><a href="/forgot-password">Forgot password?</a></p>
+  </div>
+</body>
+</html>
